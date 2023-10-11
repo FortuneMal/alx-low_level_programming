@@ -10,10 +10,10 @@ void print_alphabet(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(letter);
+		fputc(letter, stdout);
 
 	}
-	_putchar('\n');
+	fputc('\n', stdout);
 }
 
 int main(void)
