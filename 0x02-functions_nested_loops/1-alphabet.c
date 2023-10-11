@@ -14,13 +14,7 @@ void print_alphabet(void)
 
 	}
 	fputc('\n', stdout);
-}
 
-int main(void)
-{
-/**
- * main - This function prints the lowercase alphabet and returns 0
- */
 	print_alphabet();
 	return (0);
 }
