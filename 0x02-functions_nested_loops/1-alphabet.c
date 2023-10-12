@@ -6,7 +6,7 @@
  * print alphabet - Entry point
  */
 
-void print alphabet(void)
+void print_alphabet(void)
 
 {
 	char c = 'a';
