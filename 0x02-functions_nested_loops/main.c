@@ -1,27 +1,21 @@
 #include "main.h"
 
 /**
- * test_islower - Test the _islower function
- *
- * @n: Number to pass to _islower function
- */
-void test_islower(int n)
-{
-	int c;
-
-	c = _islower(n);
-	_putchar(c + '0');
-	_putchar('\n');
-}
-
-/**
- * main - Entry point
+ * main - check the code.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	test_islower('H');
-	return (0);
+    int c;
+
+    c = _islower('H');
+    _putchar(c + '0');
+    c = _islower('o');
+    _putchar(c + '0');
+    c = _islower(108);
+    _putchar(c + '0');
+    _putchar('\n');
+    return (0);
 }
 
