@@ -7,15 +7,15 @@
  */
 void test_islower(int n)
 {
-	int r;
+	int c;
 
-	r = _islower(n);
-	_putchar(r + '0');
+	c = _islower(n);
+	_putchar(c + '0');
 	_putchar('\n');
 }
 
 /**
- * main - check the code for Holberton School students.
+ * main - Entry point
  *
  * Return: Always 0.
  */
