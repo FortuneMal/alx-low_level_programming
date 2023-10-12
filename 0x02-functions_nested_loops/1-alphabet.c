@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * print alphabet - Entry point
+ * print_alphabet - Entry point
  */
 
-void print_alphabet(void);
-
+void print_alphabet(void)
 {
 	char c = 'a';
 
