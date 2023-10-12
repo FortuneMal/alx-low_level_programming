@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * prints alphabet in lowercase
- *
- * no return.
+ * print alphabet - Entry point
  */
-void print_alphabet()
+
+void print alphabet(void)
+
 {
 	char c = 'a';
 
@@ -17,5 +17,4 @@ void print_alphabet()
 		c++;
 }
 	putchar('\n');
-	return;
 }
